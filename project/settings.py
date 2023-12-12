@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-6r*(9rd=yrnxz&_(epcul*!m8rlzaa3d63ziudss0brp%bit=3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['x22191437-babysitterfinder-env.eba-suqyctka.eu-west-3.elasticbeanstalk.com/']
+ALLOWED_HOSTS = ['x22191437-babysitterfinder-env.eba-suqyctka.eu-west-3.elasticbeanstalk.com']
 
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'x22191437-babysitterfinder-env.eba-suqyctka.eu-west-3.elasticbeanstalk.com/',
+    'x22191437-babysitterfinder-env.eba-suqyctka.eu-west-3.elasticbeanstalk.com',
     # Add other trusted origins as needed
 ]
 
