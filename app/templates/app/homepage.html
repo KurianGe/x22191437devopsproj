@@ -142,7 +142,7 @@
             <div class="product-card">
                 <img src="{{ babysitter.image.url }}" alt="{{ babysitter.model }}">
                 <h3>{{ babysitter.model }}</h3>
-                <p>Hourly Rate: ${{ babysitter.price_per_hour }}</p>
+                <p>Rate per Hour: ${{ babysitter.price_per_hour }}</p>
                 <a href="{% url 'add_to_cart' pk=babysitter.pk %}"><button>Book Babysitter</button></a>
             </div>
             {% endfor %}
