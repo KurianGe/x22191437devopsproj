@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['x22191437-babysitterfinder-env.eba-suqyctka.eu-west-3.elasticb
 
 CSRF_TRUSTED_ORIGINS = [
     'x22191437-babysitterfinder-env.eba-suqyctka.eu-west-3.elasticbeanstalk.com',
-    # Add other trusted origins as needed
+    
 ]
 
 
